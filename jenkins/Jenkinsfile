@@ -26,7 +26,7 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
-        stage('Complete') {
+        stage('CompleteTask') {
             steps {
                 echo 'Job Complete-change commited by Nikk!'
             }
